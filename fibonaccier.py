@@ -3,10 +3,10 @@
 import asyncio
 import random
 import time
-from typing import Tuple, Union
+from typing import Union
 
 
-async def fib(n: int, readable_output: bool = False) -> Union[int, Tuple[int, float]]:
+async def fib(n: int, readable_output: bool = False) -> Union[int, str]:
     start_time = time.time()
 
     # Add a random delay
